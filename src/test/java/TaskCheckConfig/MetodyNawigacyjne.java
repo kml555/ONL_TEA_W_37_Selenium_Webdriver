@@ -13,9 +13,8 @@ public class MetodyNawigacyjne {
         driver.navigate().back();
         driver.get("https://mystore-testlab.coderslab.pl/index.php");
         driver.navigate().back();
-        driver.navigate().back();
-        driver.navigate().forward();
         driver.navigate().forward();
         driver.navigate().refresh();
+        driver.quit();
     }
 }
